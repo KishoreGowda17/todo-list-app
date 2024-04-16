@@ -8,7 +8,7 @@ input.addEventListener('keyup',function(e){
     saveData();
   }
 });
-const addTask = () => {
+const addTask = () => { 
   if (inputBox.value === "") {
     alert("You must write something");
   } else {
